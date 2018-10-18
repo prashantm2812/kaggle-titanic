@@ -63,3 +63,4 @@ y_pred_test = classifier.predict(X_test)
 
 y_pred1 = pd.DataFrame(y_pred_test)
 y_pred1.to_csv('out3.csv', index = False, header = ['Survived'])
+ 
